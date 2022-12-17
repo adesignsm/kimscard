@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat+Alternates:wght@800&display=swap');
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #981115;
+    opacity: 1;
+
+    #overlay-container {
+        justify-content: center;
+        text-align: center;
+        margin-top: 10vh;
+        padding: 2rem;
+
+        h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 3em;
+        }
+
+        h4 {
+            font-family: 'Lora', serif; font-style: italic
+        }
+
+        h1, h4 {
+            color: #fff;
+            opacity: 0;
+            margin-top: -5px;
+            text-align: center;
+        }
+
+        button {
+            border: 5px solid #fff;
+            background: transparent;
+            color: #fff;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            margin-top: 5vh;
+            font-size: 2em;
+            font-family: 'Montserrat Alternates', sans-serif;
+            display: none;
+        }
+
+        .blinker {
+            animation: blinker 1s linear infinite;
+            -webkit-animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {opacity: 0;}
+        }
+    }
+}
