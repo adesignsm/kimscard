@@ -156,7 +156,7 @@ const ChristmasTree = () => {
             <div id = "greeting">
                 <div id = "container">
                     <h1 id = "christmas-greeting">
-                        Ayoo merry Christmas! Wishing you all the good juju energies to take care of you in 2023 🌠
+                        Merry Christmas! Wishing you all the good juju energies to take care of you in 2023 🌠
                         <br></br>
                         <br></br>
                         Here's to more succcess and all that good stuff 🍻 

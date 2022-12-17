@@ -9,7 +9,7 @@ const Overlay = () => {
     const animations = () => {
         $("#overlay-container h1").animate({opacity: "1", marginTop: "0"}, 1000);
         $("#overlay-container h4").delay(1500).animate({opacity: "1", marginTop: "0"}, 1500);
-        $("#overlay-container button").delay(1000).fadeIn(500);
+        $("#overlay-container button").delay(5500).fadeIn(500);
 
         setInterval(() => {
             if ($("#overlay-container button").css("display") === "inline-block") {
@@ -41,7 +41,7 @@ const Overlay = () => {
             <div id = "overlay">
                 <div id = "overlay-container">
                     <h1> MERRY CHRISTMAS KIM! 🎄 </h1>
-                    <h4> I kinda procastinated so I just made this digital card instead lol. Hope you like it, its not a whole lot </h4>
+                    <h4> I kinda procastinated so I just made this digital card instead lol. Its not a whole lot but hope you like it! </h4>
                     <button onClick={handleClick}> BING BONG </button>
                 </div>
             </div>
